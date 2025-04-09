@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Commit Mesaj Yardımcısı
 
-## Getting Started
+Conventional Commits standartlarına uygun commit mesajları oluşturmanıza yardımcı olan modern bir web uygulaması.
 
-First, run the development server:
+## Özellikler
+
+- 🎨 Modern ve minimalist tasarım
+- 🌓 Koyu/açık tema desteği
+- ⚡ Hızlı ve kullanıcı dostu arayüz
+- 📝 Conventional Commits rehberi
+- 🔍 Anlık commit mesajı önizleme
+- 🎯 Doğru commit türü seçimi için yönlendirme
+
+## Teknolojiler
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
+
+## Başlangıç
+
+Projeyi yerel ortamınızda çalıştırmak için:
 
 ```bash
+# Repoyu klonlayın
+git clone https://github.com/gamzesirin/commit-message-helper.git
+
+# Proje dizinine gidin
+cd commit-message-helper
+
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirme sunucusunu başlatın
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açarak uygulamayı görüntüleyebilirsiniz.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Kullanım
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Ana sayfada "Get Started" butonuna tıklayın
+2. "Kılavuz" sekmesinden Conventional Commits hakkında bilgi alın
+3. "Commit Oluştur" sekmesinde:
+   - Commit türünü seçin
+   - Kapsamı (scope) belirtin (opsiyonel)
+   - Açıklama yazın
+   - Detaylı açıklama ekleyin (opsiyonel)
+   - Breaking changes varsa işaretleyin
 
-## Learn More
+## Katkıda Bulunma
 
-To learn more about Next.js, take a look at the following resources:
+1. Bu repoyu fork edin
+2. Yeni bir branch oluşturun (`git checkout -b feature/yeniOzellik`)
+3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik: Açıklama'`)
+4. Branch'inizi push edin (`git push origin feature/yeniOzellik`)
+5. Pull Request oluşturun
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Lisans
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
