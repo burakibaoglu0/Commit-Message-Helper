@@ -6,7 +6,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-	title: 'Commit Message Helper',
+	title: 'Commit Mesaj Yardımcısı',
 	description: 'Conventional Commits standartlarına uygun commit mesajları oluşturun'
 }
 
