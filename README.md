@@ -59,6 +59,3 @@ Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açarak
 4. Branch'inizi push edin (`git push origin feature/yeniOzellik`)
 5. Pull Request oluşturun
 
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
