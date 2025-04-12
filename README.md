@@ -16,7 +16,6 @@ Conventional Commits standartlarına uygun commit mesajları oluşturmanıza yar
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
 - [React Hook Form](https://react-hook-form.com/)
 - [Zod](https://zod.dev/)
 
@@ -46,10 +45,9 @@ Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açarak
 2. "Kılavuz" sekmesinden Conventional Commits hakkında bilgi alın
 3. "Commit Oluştur" sekmesinde:
    - Commit türünü seçin
-   - Kapsamı (scope) belirtin (opsiyonel)
+   - Kapsamı (scope) belirtin
    - Açıklama yazın
    - Detaylı açıklama ekleyin (opsiyonel)
-   - Breaking changes varsa işaretleyin
 
 ## Katkıda Bulunma
 
