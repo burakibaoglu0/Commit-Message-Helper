@@ -1,27 +1,36 @@
 interface CommitMessage {
-	type: string
-	scope?: string
-	description: string
-	body?: string
-	footer?: string
+  type: string;
+  scope?: string;
+  description: string;
+  body?: string;
+  footer?: string;
 }
 
-export function generateCommitMessage({ type, scope, description, body, footer }: CommitMessage): string {
-	let message = type
+export function generateCommitMessage({
+  type,
+  scope,
+  description,
+  body,
+  footer,
+}: CommitMessage): string {
+  let message = "type(scope): description";
 
-	if (scope) {
-		message += `(${scope})`
-	}
+  const requiredFields: [string, string | undefined][] = [
+    ["type", type],
+    ["scope", scope],
+    ["description", description],
+  ];
 
-	message += `: ${description}`
+  for (const [key, value] of requiredFields) {
+    if (value) {
+      message = message.replace(key, value);
+    }
+  }
 
-	if (body) {
-		message += `\n\n${body}`
-	}
+  const extras = [body, footer].filter(Boolean);
+  extras.forEach((part) => {
+    message += `\n\n${part}`;
+  });
 
-	if (footer) {
-		message += `\n\n${footer}`
-	}
-
-	return message
+  return message;
 }
